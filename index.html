@@ -400,7 +400,45 @@
                 </svg>
             </button>
             <p class="modal-title">Leave your contacts and we will call you back</p>
+            <form class="modal-window">
+                <div class="modal-field">
+                    <label for="name" class="label-name">
+                        Name
+                    </label>
+                    <div class="modal-field-wrap">
+                        <input type="text" class="modal-input" name="user-name" required id="name" />
+                        <svg class="modal-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-person-black"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label for="phone" class="label-name">
+                        Phone
+                    </label>
+                    <div class="modal-field-wrap">
+                        <input type="tel" class="modal-input" name="user-phone" required id="phone" />
+                        <svg class="modal-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone-black"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label for="email" class="label-name">
+                        Email
+                    </label>
+                    <div class="modal-field-wrap">
+                        <input type="email" class="modal-input" name="user-email" required id="email" />
+                        <svg class="modal-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-email-black"></use>
+                        </svg>
+                    </div>
+                </div>
         </div>
+        <button type="submit">Send</button>
+        </form>
+    </div>
+
     </div>
 
 </body>
