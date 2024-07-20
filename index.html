@@ -402,11 +402,11 @@
             <p class="modal-title">Leave your contacts and we will call you back</p>
             <form class="modal-window">
                 <div class="modal-field">
-                    <label for="name" class="label-name">
+                    <label for="use-name" class="label-name">
                         Name
                     </label>
                     <div class="modal-field-wrap">
-                        <input type="text" class="modal-input" name="user-name" required id="name" />
+                        <input type="text" class="modal-input" name="user-name" required id="use-name" />
                         <svg class="modal-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-person-black"></use>
                         </svg>
@@ -434,10 +434,16 @@
                         </svg>
                     </div>
                 </div>
+                <div class="modal-field">
+                    <label for="user-comment" class="label-name">
+                        Comment
+                    </label>
+                    <textarea name="user-comment" class="modal-commet" id="use-comment"
+                        placeholder="Text input"></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
         </div>
-        <button type="submit">Send</button>
-        </form>
-    </div>
 
     </div>
 
